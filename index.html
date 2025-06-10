@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/soso.jpg" alt="avatar da Larissa" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou a Sophia</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Sou estudante do AGA, e tenho aulas toda semana de programação com a Dr. Anne. Atualmente, tento estudar na área de exatas, possuo uma pequena noção em canva, vsco e p5js e continuo estudando para um futuro promissor!
+        </p>
+        <p>Minhas habilidades:</p>
+        <div>
+            <p class="badge bg-secondary">Básico de canva</p>
+            <p class="badge bg-secondary">Básico de vscode/p>
+            <p class="badge bg-secondary">Básico de p5js</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos:</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/vscapa.jpg" class="card-img-top" alt="Imagem do Java onde foi feito o primeiro projeto">
+                    <div class="card-body">
+                        <h5 class="card-title">corrida maluca</h5>
+                        <p class="card-text">Este projeto foi feito durante uma aula na escola, onde produzimos um jogo p5js.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/canvz.jpg" width="200" height="200" class="card-img-top" alt="Imagem do projeto feito pelo vscode">
+                    <div class="card-body">
+                        <h5 class="card-title">design do canva</h5>
+                        <p class="card-text">Este é um projeto feito para meu empreendimento pessoal.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/canva.png" width="200" height="200" class="card-img-top" alt="Imagem do projeto feito pelo Vscode">
+                    <div class="card-body">
+                        <h5 class="card-title">fotografia</h5>
+                        <p class="card-text">Neste projeto foi criada uma galeria de fotos.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Petirica</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Estrutura do Projeto: No VS Code, você organizaria seu projeto em pastas e arquivos. Isso poderia incluir 
+                        um arquivo principal sketch.js para o código p5.js, um arquivo index.html para a estrutura da página web 
+                        que exibirá o sketch, e potencialmente pastas para arquivos de dados, bibliotecas 
+                        adicionais ou assets (imagens, sons).
+                    <p>Arquivo index.html: Este arquivo HTML seria a base da sua página web, importando a biblioteca p5.js e o 
+                        seu arquivo sketch.js.</p>
+                    <p>Arquivo sketch.js: Este arquivo conteria o código p5.js, similar ao que seria escrito no editor online, com 
+                        as funções setup(), draw(), e as funções de interação.</p>
+
+                
+                    <img src="img/codigovs.jpg" class="img-fluid w-100"
+                        alt="Imagem representativa do p5.js">
+                </div>
+               <div class="modal-footer">
+                    <a href="https://lariprado7.github.io/Petirica/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/lariprado7/Petirica">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Ceramisca</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Estrutura do Projeto: No VS Code, você organizaria seu projeto em pastas e arquivos. Isso poderia incluir 
+                        um arquivo principal sketch.js para o código p5.js, um arquivo index.html para a estrutura da página web 
+                        que exibirá o sketch, e potencialmente pastas para arquivos de dados, bibliotecas 
+                        adicionais ou assets (imagens, sons).
+                    <p>Arquivo index.html: Este arquivo HTML seria a base da sua página web, importando a biblioteca p5.js e o 
+                        seu arquivo sketch.js.</p>
+                    <p>Arquivo sketch.js: Este arquivo conteria o código p5.js, similar ao que seria escrito no editor online, com 
+                        as funções setup(), draw(), e as funções de interação.</p>
+
+                    <img src="img/codigovs.jpg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto futebolizando">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://lariprado7.github.io/Ceramisca/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/lariprado7/Ceramisca">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Corrida da lari</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Em p5.js, podemos criar projetos visuais interativos, como uma visualização de dados climáticos. A ideia 
+                     seria usar dados de temperatura, umidade e vento de diversas cidades para gerar 
+                     círculos dinâmicos na tela. O tamanho, a cor e a direção de elementos visuais 
+                     representariam essas informações. A interação do usuário, como passar o mouse ou 
+                     clicar, poderia revelar detalhes adicionais ou gráficos históricos.
+                    </p>
+                    <p>O código em p5.js se estrutura principalmente em duas funções: setup(), que roda uma vez para 
+                        configurações iniciais (como criar a tela e carregar dados), e draw(), que executa em 
+                        loop para desenhar as formas na tela com base nos dados. Para a interatividade, funções 
+                        como mousePressed() e mouseMoved(), juntamente com as coordenadas do mouse (mouseX, mouseY), permitiriam 
+                        criar respostas dinâmicas às ações do usuário. Um projeto completo exigiria mais código para o 
+                        tratamento de dados e a criação de uma interface visual clara. O p5.js editor oferece um ambiente 
+                        prático para desenvolver e testar essas ideias diretamente no navegador.</p>
+                    <img src="img/p52.jpg" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/00001110323116sp/full/GDMcDJKxs">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/lariprado7">GitHub</a>
+
+           <div> <i class="bi bi-instagram"></i>
+            <a href="https://www.instagram.com/larixxis?igsh=MThlOTRrazJjZWhmcA%3D%3D&utm_source=qr">Instagram</a>
+           </div>
+           
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
